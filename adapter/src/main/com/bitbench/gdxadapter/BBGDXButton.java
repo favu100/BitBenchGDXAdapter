@@ -1,4 +1,4 @@
-package com.bitbench.modernpong.util;
+package com.bitbench.gdxadapter;
 
 import com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton;
 

@@ -2,7 +2,7 @@
  * Copyright © 2017 BitBench. All rights reserved.
  */
 
-package com.bitbench.modernpong.util;
+package com.bitbench.gdxadapter;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.InputMultiplexer;
@@ -16,12 +16,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.Button;
 import com.badlogic.gdx.scenes.scene2d.ui.Skin;
 import com.badlogic.gdx.utils.I18NBundle;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
-import com.bitbench.modernpong.GdxGame;
-import com.bitbench.modernpong.IGdxAndroidInterface;
 
 public class GdxUtils {
-    public static GdxGame sGdxGame;
-    public static IGdxAndroidInterface androidInterface;
     public static BitmapFont sBitmapFont;
     public static Skin sSkin;
     public static OrthographicCamera sCamera;

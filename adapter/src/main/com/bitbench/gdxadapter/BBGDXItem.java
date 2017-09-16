@@ -1,4 +1,4 @@
-package com.bitbench.modernpong.util;
+package com.bitbench.gdxadapter;
 
 /**
  * Created by fabian on 16.09.17.

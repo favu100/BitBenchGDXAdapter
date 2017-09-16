@@ -1,4 +1,4 @@
-package com.bitbench.modernpong.util;
+package com.bitbench.gdxadapter;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.scenes.scene2d.Stage;
@@ -6,7 +6,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton;
 import com.badlogic.gdx.utils.I18NBundle;
 import com.badlogic.gdx.utils.Json;
 
-import static com.bitbench.modernpong.util.GdxUtils.sSkin;
+import static com.bitbench.gdxadapter.GdxUtils.sSkin;
 
 /**
  * Created by fabian on 16.09.17.
