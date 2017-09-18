@@ -10,9 +10,9 @@ public class BBGDXButton extends BBGDXItem {
 
     private ImageTextButton button;
 
-    public BBGDXButton() {}
-
     private String text;
+
+    public BBGDXButton() {}
 
     public String getText() {
         return text;
