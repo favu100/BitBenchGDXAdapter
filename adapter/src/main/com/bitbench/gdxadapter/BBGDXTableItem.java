@@ -1,16 +1,17 @@
+/*
+ * Copyright © 2017 BitBench. All rights reserved.
+ */
+
 package com.bitbench.gdxadapter;
 
 import java.util.HashMap;
 
-/**
- * Created by fabian on 18.09.17.
- */
 
 public abstract class BBGDXTableItem {
 
-    protected HashMap<String, String> row;
+    protected HashMap<String, Object> row;
 
-    public HashMap<String, String> getRow() {
+    public HashMap<String, Object> getRow() {
         return row;
     }
 }

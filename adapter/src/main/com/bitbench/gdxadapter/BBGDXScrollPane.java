@@ -1,8 +1,9 @@
+/*
+ * Copyright © 2017 BitBench. All rights reserved.
+ */
+
 package com.bitbench.gdxadapter;
 
-/**
- * Created by fabian on 18.09.17.
- */
 
 public class BBGDXScrollPane extends BBGDXItem {
 

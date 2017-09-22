@@ -1,10 +1,10 @@
+/*
+ * Copyright © 2017 BitBench. All rights reserved.
+ */
+
 package com.bitbench.gdxadapter;
 
 import com.badlogic.gdx.math.Vector2;
-
-/**
- * Created by fabian on 09.04.17.
- */
 
 public class Vector extends Vector2 {
 

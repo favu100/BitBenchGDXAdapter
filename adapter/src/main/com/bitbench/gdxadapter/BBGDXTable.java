@@ -1,5 +1,10 @@
+/*
+ * Copyright © 2017 BitBench. All rights reserved.
+ */
+
 package com.bitbench.gdxadapter;
 
+import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Table;
 
 import java.util.ArrayList;
@@ -7,9 +12,6 @@ import java.util.HashMap;
 
 import static com.bitbench.modernpong.util.GdxUtils.sStrings;
 
-/**
- * Created by fabian on 18.09.17.
- */
 
 public class BBGDXTable extends BBGDXItem {
 
@@ -38,9 +40,9 @@ public class BBGDXTable extends BBGDXItem {
         return padding;
     }
 
-    public void setAdapter(BBGDXTableAdapter adapter) {
+    public void setAdapter(BBGDXTableAdapter adapter, Stage stage) {
         this.adapter = adapter;
-        adapter.apply(this, sStrings);
+        adapter.apply(this, stage, sStrings);
 
     }
 

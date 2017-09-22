@@ -1,3 +1,7 @@
+/*
+ * Copyright © 2017 BitBench. All rights reserved.
+ */
+
 package com.bitbench.gdxadapter;
 
 import com.badlogic.gdx.Gdx;
@@ -8,15 +12,9 @@ import com.badlogic.gdx.scenes.scene2d.Stage;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.ui.ProgressBar;
 import com.badlogic.gdx.scenes.scene2d.utils.TextureRegionDrawable;
-import com.bitbench.gdxadapter.BBGDXItem;
-import com.bitbench.gdxadapter.GdxEngine;
 
-import static com.bitbench.modernpong.util.GdxUtils.sSkin;
-import static com.bitbench.modernpong.util.GdxUtils.sStrings;
-
-/**
- * Created by fabian on 13.09.17.
- */
+import static com.bitbench.gdxadapter.GdxUtils.sSkin;
+import static com.bitbench.gdxadapter.GdxUtils.sStrings;
 
 
 public class ExperienceBar extends BBGDXItem {

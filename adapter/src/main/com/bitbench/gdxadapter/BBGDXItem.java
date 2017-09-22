@@ -1,15 +1,13 @@
-package com.bitbench.gdxadapter;
-
-/**
- * Created by fabian on 16.09.17.
+/*
+ * Copyright © 2017 BitBench. All rights reserved.
  */
 
+package com.bitbench.gdxadapter;
+
+import com.badlogic.gdx.scenes.scene2d.Actor;
+
+
 public abstract class BBGDXItem {
-
-    public BBGDXItem() {
-    }
-
-    private String id;
 
     protected float xPos;
 
@@ -18,6 +16,12 @@ public abstract class BBGDXItem {
     protected float width;
 
     protected float height;
+
+    protected transient Actor actor;
+
+    public BBGDXItem() {
+    }
+
 
     public float getXPos() {
         return xPos;
@@ -35,4 +39,11 @@ public abstract class BBGDXItem {
         return height;
     }
 
+    public void setActor(Actor actor) {
+        this.actor = actor;
+    }
+
+    public Actor getActor() {
+        return actor;
+    }
 }

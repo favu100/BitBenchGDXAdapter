@@ -1,14 +1,12 @@
-package com.bitbench.gdxadapter;
-
-import com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton;
-
-/**
- * Created by fabian on 16.09.17.
+/*
+ * Copyright © 2017 BitBench. All rights reserved.
  */
 
-public class BBGDXButton extends BBGDXItem {
+package com.bitbench.gdxadapter.util;
 
-    private ImageTextButton button;
+
+
+public class BBGDXButton extends BBGDXItem {
 
     private String text;
 
@@ -18,11 +16,4 @@ public class BBGDXButton extends BBGDXItem {
         return text;
     }
 
-    public void setButton(ImageTextButton button) {
-        this.button = button;
-    }
-
-    public ImageTextButton getButton() {
-        return button;
-    }
 }
